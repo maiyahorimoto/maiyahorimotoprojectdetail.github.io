@@ -1,0 +1,62 @@
+/********************************
+Bootstrap Variables Override
+**********************************/
+:root {
+    /* Replace your primary color from your UI Kit */
+    --bs-primary: #5F3D1C;
+
+    /* Replace your secondary color from your UI Kit  */
+    --secondary-color: #422B15;
+
+    /* Replace the main body font from your UI Kit */
+    --bs-font-sans-serif: "DM Sans", sans-serif;
+  
+    /* Optional: Replace gradient from your UI Kit */
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+
+/********************************
+Global Styles and UI Components
+**********************************/
+.navbar {
+    /* Optional: Make the navbar background transparent */
+    background-color: #C0C69C;
+
+    /* Optional: Move the navbar is positioned over the hero */
+    position: absolute;
+
+    /* Optional: Stretch the navbar across the full width */
+    width: 100%;
+
+    /* Optional: Add inner spacing to the navbar */
+    padding: 1rem;
+}
+
+footer {
+    /* Change footer background color */
+    background-color: var(--bs-primary);
+    /* Optional: Change footer text color to white using variable */
+    color: var(--bs-white);
+    /* Optional: Center footer elements */
+    text-align: center;
+}
+
+footer .footer-social {
+    /* Optional: Change size of footer icon */
+    width:24px;
+    margin:.5rem
+}
+
+.btn-primary {
+    /* Optional: Change primary button background color to primary color */
+    background-color: var(--bs-primary);
+    /* Optional: Remove primary button outline */
+    border: none;
+}
+
+.btn-primary:hover {
+    /* Optional: Change primary button hover state background and text color  */
+    background-color: var(--secondary-color);
+    color: var(--bs-dark #422B15);
+}
